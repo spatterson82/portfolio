@@ -1,2 +1,0 @@
-# stephenpatterson
-Stephen Patterson - Portfolio
