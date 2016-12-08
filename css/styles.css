@@ -1,8 +1,7 @@
-/*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+/*dark = 3b3732
+light = #73706c*/
+
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -18,7 +17,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #73706c;
   outline: none;
 }
 h1,
@@ -31,45 +30,32 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-hr.star-light,
-hr.star-primary {
+hr.white-line,
+hr.grey-line {
   padding: 0;
   border: none;
-  border-top: solid 5px;
   text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px;
-}
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
-hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
-}
-hr.star-primary {
-  border-color: #2C3E50;
-}
-hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
+  max-width: 350px;
+  border-top: solid 5px;
+  margin: 25px auto 30px;
 }
+
+hr.white-line {
+  border-color: white;
+}
+
+hr.grey-line {
+  border-color: #2C3E50;
+}
+
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #73706c;
   color: white;
 }
 header .container {
@@ -97,14 +83,14 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 4em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #3b3732;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -129,7 +115,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #73706c;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,7 +124,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #73706c;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
@@ -154,9 +140,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #73706c;
   color: white;
-  border-color: #18BC9C;
+  border-color: #73706c;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -186,8 +172,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: white;
+  color: #3b3732;
 }
 @media (max-width: 767px) {
   section {
@@ -208,7 +194,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background:#73706c;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -381,8 +367,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #73706c;
+  border-color: #73706c;
 }
 .btn-success:active,
 .btn-success.active,
